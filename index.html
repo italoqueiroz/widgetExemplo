@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+	<script type="text/javascript" src="jquery.custom.list.js"></script>
+	<style type="text/css">
+		table td, table th {
+			padding:5px;
+		}
+	</style>
+</head>
+<body>
+	<div id="demo"></div>
+</body>
+<script type="text/javascript">
+ $(function(){
+  	$('#demo').list({data:[{nome:'italo'}, {nome:'queiroz', idade: 23}]});
+ });
+</script>
+</html>
